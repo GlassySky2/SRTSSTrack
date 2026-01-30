@@ -1,0 +1,22 @@
+pretrained/
+UAV_Custom_Training/
+*.pt
+Depthtrack_workspace/
+pretrained/
+test_samples/
+UAV_Custom_Training/
+# --- Python 缓存与环境 ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.conda/
+venv/
+env/
+
+# --- IDE 与系统文件 ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

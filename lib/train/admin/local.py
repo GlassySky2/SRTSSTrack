@@ -1,0 +1,33 @@
+class EnvironmentSettings:
+    def __init__(self):
+        self.workspace_dir = '/home/xyp/sx/SUTrack'    # Base directory for saving network checkpoints.
+        self.tensorboard_dir = '/home/xyp/sx/SUTrack/tensorboard'    # Directory for tensorboard files.
+        self.pretrained_networks = '/home/xyp/sx/SUTrack/pretrained_networks'
+        self.lasot_dir = '/home/xyp/sx/SUTrack/data/lasot'
+        self.vasttrack_dir = '/home/xyp/sx/SUTrack/data/vasttrack'
+        self.got10k_dir = '/home/xyp/sx/SUTrack/data/got10k/train'
+        self.lasot_lmdb_dir = '/home/xyp/sx/SUTrack/data/lasot_lmdb'
+        self.got10k_lmdb_dir = '/home/xyp/sx/SUTrack/data/got10k_lmdb'
+        self.trackingnet_dir = '/home/xyp/sx/SUTrack/data/trackingnet'
+        self.trackingnet_lmdb_dir = '/home/xyp/sx/SUTrack/data/trackingnet_lmdb'
+        self.coco_dir = '/home/xyp/sx/SUTrack/data/coco'
+        self.coco_lmdb_dir = '/home/xyp/sx/SUTrack/data/coco_lmdb'
+        self.imagenet1k_dir = '/home/xyp/sx/SUTrack/data/imagenet1k'
+        self.imagenet22k_dir = '/home/xyp/sx/SUTrack/data/imagenet22k'
+        self.lvis_dir = ''
+        self.sbd_dir = ''
+        self.imagenet_dir = '/home/xyp/sx/SUTrack/data/vid'
+        self.imagenet_lmdb_dir = '/home/xyp/sx/SUTrack/data/vid_lmdb'
+        self.imagenetdet_dir = ''
+        self.ecssd_dir = ''
+        self.hkuis_dir = ''
+        self.msra10k_dir = ''
+        self.davis_dir = ''
+        self.youtubevos_dir = ''
+        self.depthtrack_dir = '/home/xyp/sx/SUTrack/data/depthtrack/train'
+        self.lasher_dir = '/home/xyp/sx/SUTrack/data/lasher/trainingset'
+        self.visevent_dir = '/home/xyp/sx/SUTrack/data/visevent/train'
+        self.refcoco_dir = '/home/xyp/sx/SUTrack/data/refcoco'
+        self.tnl2k_dir = '/home/xyp/sx/SUTrack/data/tnl2k/train'
+        self.otb99_dir = '/home/xyp/sx/SUTrack/data/otb_lang'
+        self.uav_dir = '/home/xyp/sx/SUTrack/data/UAV' #新增
